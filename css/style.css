@@ -489,3 +489,63 @@ body {
   font-style: italic;
   margin-top: 10px;
 }
+
+.footer {
+  padding: 100px 0 80px;
+  background-color: #363636;
+  color: #fff;
+}
+
+.footer-title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.footer-info-item {
+  margin-bottom: 40px;
+}
+
+.footer-info-item dt,
+.footer-address-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-info-item dd {
+  margin-bottom: 10px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.footer-address {
+  flex-basis: 454px;
+}
+
+#map {
+  height: 250px;
+}
+
+.footer-address-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
