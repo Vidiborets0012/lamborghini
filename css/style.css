@@ -281,6 +281,30 @@ body {
   color: #fff;
 }
 
+.evo-top-inner {
+  position: relative;
+}
+
+.evo-top-inner::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/eco-poligon-1.svg');
+  width: 185px;
+  height: 213px;
+  left: -138px;
+  top: 217px;
+}
+
+.evo-top-inner::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/eco-poligon-2.svg');
+  width: 498px;
+  height: 572px;
+  left: -38px;
+  top: 299px;
+}
+
 .evo-top-info {
   display: flex;
   justify-content: space-between;
@@ -303,12 +327,16 @@ body {
 
 .evo-top-img {
   margin: 200px auto 60px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo-descr-list {
   display: flex;
   justify-content: center;
   gap: 0 65px;
+  position: relative;
+  z-index: 1;
 }
 
 .evo-descr-list dd {
@@ -317,6 +345,27 @@ body {
 
 .evo-bottom-inner {
   padding-top: 125px;
+  position: relative;
+}
+
+.evo-bottom-inner::before {
+  content: '';
+  position: absolute;
+  background-image: url('../images/eco-poligon-3.png');
+  width: 274px;
+  height: 257px;
+  left: 365px;
+  top: -17px;
+}
+
+.evo-bottom-inner::after {
+  content: '';
+  position: absolute;
+  background-image: url('../images/eco-poligon-4.png');
+  width: 324px;
+  height: 311px;
+  left: 600px;
+  top: 120px;
 }
 
 .evo-bottom-text + .evo-bottom-text {
