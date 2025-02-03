@@ -405,3 +405,56 @@ body {
   display: block;
   color: #fff;
 }
+
+.blog {
+  margin-bottom: 100px;
+}
+
+.blog-title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.blog-item-img {
+  margin-bottom: 20px;
+}
+
+.blog-item-title {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  min-height: 46px;
+}
+
+.blog-item-text {
+  margin-bottom: 10px;
+}
+
+.blog-item-link {
+  font-size: 12px;
+  color: #363636;
+}
+
+.blog-slider {
+  position: relative;
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
+
+.blog-button {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 50%;
+}
+
+.swiper-button-left {
+  transform: translateX(-41px);
+}
+
+.swiper-button-right {
+  transform: translateX(8px);
+}
