@@ -458,3 +458,34 @@ body {
 .swiper-button-right {
   transform: translateX(8px);
 }
+
+.blog-quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.blog-quote-box {
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin: 0 0 30px;
+}
+
+.blockquote-name {
+  font-weight: 700;
+  /* margin-bottom: 10px; */
+}
+
+.blockquote-name span {
+  display: block;
+  font-size: 12px;
+  color: #9f6b08;
+  margin-bottom: 3px;
+}
+
+.blockquote-text {
+  font-style: italic;
+  margin-top: 10px;
+}
