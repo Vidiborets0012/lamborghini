@@ -228,12 +228,18 @@ body {
 }
 
 .track {
-  padding-top: 47px;
-  padding-bottom: 90px;
+  /* padding-top: 47px;
+  padding-bottom: 90px; */
   background-image: url('../images/track-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.track-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .track-title {
@@ -241,15 +247,18 @@ body {
   font-size: 32px;
   text-transform: uppercase;
   line-height: 38px;
+  padding-top: 47px;
   padding-bottom: 30px;
 }
 
 .track-text {
-  min-width: 435px;
+  max-width: 435px;
   font-size: 14px;
 }
 
 .track-img {
-  margin: 0 auto;
-  margin-top: 250px;
+  margin: auto auto 90px auto;
+
+  /* margin: 0 auto;
+  margin-top: 250px; */
 }
