@@ -26,6 +26,14 @@ ul {
   padding: 0;
 }
 
+dl {
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -261,4 +269,48 @@ body {
 
   /* margin: 0 auto;
   margin-top: 250px; */
+}
+
+.evo {
+  margin-bottom: 100px;
+}
+
+.evo-top {
+  padding: 100px 0 50px;
+  background-color: #363636;
+  color: #fff;
+}
+
+.evo-top-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.evo-top-title {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+
+.evo-top-infobox {
+  flex-basis: 437px;
+}
+
+.evo-top-text + .evo-top-text {
+  margin-top: 30px;
+}
+
+.evo-top-img {
+  margin: 200px auto 60px;
+}
+
+.evo-descr-list {
+  display: flex;
+  justify-content: center;
+  gap: 0 65px;
+}
+
+.evo-descr-list dd {
+  text-transform: uppercase;
 }
