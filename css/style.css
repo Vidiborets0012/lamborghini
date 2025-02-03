@@ -314,3 +314,45 @@ body {
 .evo-descr-list dd {
   text-transform: uppercase;
 }
+
+.evo-bottom-inner {
+  padding-top: 125px;
+}
+
+.evo-bottom-text + .evo-bottom-text {
+  margin-top: 30px;
+}
+
+.evo-bottom-text:first-child {
+  max-width: 285px;
+}
+
+.evo-bottom-text:nth-child(2) {
+  max-width: 437px;
+}
+
+.evo-bottom-text:nth-child(3) {
+  max-width: 590px;
+}
+
+.evo-bottom-video {
+  margin-top: 100px;
+  background-image: url('../images/evo-video.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 266px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.evo-bottom-link-icon {
+  margin: 0 auto;
+}
+
+.evo-bottom-link span {
+  display: block;
+  color: #fff;
+}
