@@ -589,6 +589,12 @@ body {
   }
 }
 
+@media screen and (max-width: 969px) {
+  .evo-bottom-inner::after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 840px) {
   .menu-btn {
     display: flex;
@@ -669,6 +675,29 @@ body {
   }
 }
 
+@media screen and (max-width: 669px) {
+  .evo-top-info {
+    display: block;
+  }
+
+  .evo-top-title {
+    margin-bottom: 30px;
+  }
+
+  .evo-bottom-inner::before {
+    display: none;
+  }
+
+  .evo-descr-list {
+    display: block;
+    text-align: center;
+  }
+
+  .evo-descr-list div {
+    margin-bottom: 15px;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .promo-title {
     font-size: 48px;
@@ -685,6 +714,22 @@ body {
   .info-table td:nth-child(2) {
     padding-left: 5px;
     padding-right: 5px;
+  }
+
+  .evo-top-inner::after {
+    display: none;
+  }
+
+  .evo-top-img {
+    margin: 60px auto 60px;
+  }
+
+  .evo-top-inner::before {
+    display: none;
+  }
+
+  .evo-bottom-inner {
+    padding-top: 60px;
   }
 }
 
