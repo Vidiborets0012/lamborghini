@@ -675,6 +675,24 @@ body {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .blog-quote {
+    flex-direction: column;
+  }
+
+  .blog-quote-box {
+    flex-basis: auto;
+  }
+
+  .blog-quot-img {
+    order: -1;
+  }
+
+  .blog-item-img {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 669px) {
   .evo-top-info {
     display: block;
