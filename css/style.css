@@ -545,3 +545,125 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.menu-mobile {
+  display: none;
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .promo {
+    background-position: left center;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: flex;
+    gap: 0 20px;
+  }
+
+  .logo-img {
+    width: 50px;
+  }
+
+  .nav {
+    align-items: center;
+  }
+
+  .promo-title {
+    font-size: 64px;
+  }
+
+  .promo-subtitle {
+    font-size: 42px;
+  }
+
+  .promo-subtitle span {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 10;
+  }
+
+  .menu-btn span {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .menu-mobile.menu-open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: #040404;
+    z-index: 5;
+    text-align: center;
+    padding-top: 140px;
+  }
+
+  .menu-link {
+    color: #fff;
+    font-size: 3vh;
+    display: block;
+    padding: 20px 0;
+  }
+
+  .logo {
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .promo-title {
+    font-size: 48px;
+  }
+
+  .promo-subtitle {
+    font-size: 34px;
+  }
+
+  .promo-subtitle span {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .promo-title {
+    font-size: 42px;
+  }
+
+  .promo-subtitle {
+    font-size: 30px;
+  }
+
+  .menu-link {
+    padding: 15px 0;
+  }
+}
